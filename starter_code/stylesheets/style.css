@@ -8,3 +8,200 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+/* font-family: 'Source Sans 3', sans-serif; 
+600, 400, 300
+
+*/
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Larsseit Bold";
+}
+
+h1{
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+}
+
+h2, h3 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 300;
+}
+
+span {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 300;
+    
+
+}
+
+
+
+
+nav {
+    display: flex; 
+    background-color: #540B51;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 15px;
+
+}
+
+nav header div p strong{
+    color: #ECB12F;
+
+}
+
+.logo {
+    width: 100px;
+
+ }
+
+.hidden{
+    display: none;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #540B51;
+    color: white;
+}
+
+.google-button {
+    background-color: #4285F4;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.div {
+    width: 40px;
+}
+
+.google-logo{
+    width: 40px;
+    border-radius: 3px;
+    background-color: white;
+    
+}
+
+header div button{
+    width: 80vw;  
+
+}
+
+.hero {
+    width: 500px;
+}
+
+main {
+    background-color: #F3EAE2;
+    
+}
+
+h3{
+    text-align: center;
+}
+
+
+.brands{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 100%;
+}
+
+.images-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+main section div .brands-images {
+    max-width: 25%;
+}
+
+
+.team-choose-move {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3vw;
+}
+
+.choose{
+    display: flex;
+    justify-content: end;
+}
+
+.team-choose-move a{
+    text-decoration: none;
+}
+
+.speed {
+    width: 500px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.slack-img-footer {
+    width: 50px;
+}
+
+.why {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+    
+}
+
+footer div ul {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
