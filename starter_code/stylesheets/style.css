@@ -20,31 +20,38 @@ footer links grey: #454245
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Larsseit Bold";
+    font-family: 'Source Sans 3', sans-serif;
 }
+
+.logo {
+    width: 150px;
+
+ }
 
 h1{
     font-family: 'Source Sans 3', sans-serif;
     font-weight: 600;
+    font-size: 70px;
+    text-align: center;
+    padding: 20px;
 }
 
-h2, h3 {
+h2 {
     font-family: 'Source Sans 3', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 25px;
 }
 
-p {
+h3 {
     font-family: 'Source Sans 3', sans-serif;
-    font-weight: 300;
+    font-weight: 600;
+    font-size: 1.5em;
+    padding: 35px;
+    text-align: center;
+    text-transform: uppercase;
 }
-
-span {
-    font-family: 'Source Sans 3', sans-serif;
-    font-weight: 300;
-    
-
-}
-
 
 
 
@@ -53,20 +60,29 @@ nav {
     background-color: #540B51;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
-    padding: 15px;
+    height: 1em;
+    padding: 40px;
 
 }
 
-nav header div p strong{
+header div p strong{
     color: #ECB12F;
+     font-family: 'Source Sans 3', sans-serif;
 
 }
 
-.logo {
-    width: 100px;
+header div p {
+    font-size: 2em;
+    margin-bottom: 28px;
+    font-family: 'Source Sans 3', sans-serif;
+}
 
- }
+
+.nav-button img{
+    width: 50px;
+    background-color: #540B51;
+    border: #540B51;
+}
 
 .hidden{
     display: none;
@@ -87,37 +103,64 @@ header div {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Source Sans 3', sans-serif;
     
 
 }
 
+
+
 .div {
-    width: 40px;
+    width: 70px;
+    
 }
 
 .google-logo{
-    width: 40px;
+    width: 2em;
     border-radius: 3px;
     background-color: white;
+    padding: 1em;
+    margin-left: 10px;
     
 }
 
 header div button{
-    width: 80vw;  
+    width: 80vw; 
+    height: 10vh; 
+    margin: 10px;
+    font-size: 2em;
+    font-family: 'Source Sans 3', sans-serif;
 
+}
+
+header div button span {
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 .hero {
     width: 500px;
+    overflow: hidden;
+}
+
+.hero-first{
+    width: 1000px;
+    overflow: hidden;
+    margin-top: 30px;
+    
+}
+
+
+
+header div img {
+    height: 100%;
+    clip-path: inset(0px 200px 100px 0px);
+    margin-left: 150px;
 }
 
 main {
     background-color: #F3EAE2;
+    font-family: 'Source Sans 3', sans-serif;
     
-}
-
-h3{
-    text-align: center;
 }
 
 
@@ -148,6 +191,7 @@ main section div .brands-images {
     flex-direction: column;
     justify-content: center;
     padding: 3vw;
+   
 }
 
 .choose{
@@ -157,7 +201,22 @@ main section div .brands-images {
 
 .team-choose-move a{
     text-decoration: none;
+    color: #2E71A6;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+    
 }
+
+.main-p {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+section div .links {
+    
+}
+
 
 .speed {
     width: 500px;
@@ -184,6 +243,8 @@ footer {
 footer div ul {
     list-style-type: none;
 }
+
+@media (min-width: 768px) and (max-width: 999px)
 
 
 
