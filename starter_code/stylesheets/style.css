@@ -138,7 +138,7 @@ header div button span {
 }
 
 .hero {
-    width: 500px;
+    width: 600px;
     overflow: hidden;
 }
 
@@ -213,9 +213,6 @@ main section div .brands-images {
     line-height: 40px;
 }
 
-section div .links {
-    
-}
 
 
 .speed {
@@ -225,6 +222,7 @@ section div .links {
 footer {
     display: flex;
     flex-direction: column;
+    font-family: 'Source Sans 3', sans-serif;
     
 }
 
@@ -235,33 +233,30 @@ footer {
 .why {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 30px;
     
+}
+
+.last-menu {
+    line-height: 30px;
     
+}
+
+.footer-icon ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer div ul {
     list-style-type: none;
 }
 
-@media (min-width: 768px) and (max-width: 999px)
 
 
+@media (min-width: 768px) and (max-width: 999px) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
